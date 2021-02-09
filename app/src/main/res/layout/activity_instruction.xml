@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instruction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="5dp"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16pt"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textColor="#010F3A"
+        android:textSize="28sp"
+        android:text="@string/Inctrution"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:text="  Данное приложенние предназаначено для проведения описи приборов, оборудования, мебели и другого имущества закрепленного за Брестским информационно Вычислитеным Центром. "
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:text="  Список содержит все устройства или пердметы которые необходимо проверить. Проверяя все QR-коды, которые размещены на устройствах, список постепенно обновляется, и наглядно можно оценить результат описи. "
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:text="  Для работы приложения необходимо разрешение на доступ к камере устройства, а так же Интернет соединение. "
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:justificationMode="inter_word"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/foter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16pt"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#100F0F"
+        android:textSize="12sp"
+        android:text="ivc.brest.programm@gmail.com"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

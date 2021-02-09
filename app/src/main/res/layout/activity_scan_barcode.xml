@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0px"
+    android:background="@drawable/fon_color">
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:layout_above="@+id/btnAction"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/txtBarcodeValue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30px"
+        android:padding="30px"
+        android:text="Наведите на QR - код устройства"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+
+        android:id="@+id/btnAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:text="Проверить Данные"
+        android:textColor="@android:color/white"
+        android:layout_margin="30px"
+        />
+
+</LinearLayout>

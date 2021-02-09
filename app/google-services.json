@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "623144832478",
+    "firebase_url": "https://barcodevisionapi2.firebaseio.com",
+    "project_id": "barcodevisionapi2",
+    "storage_bucket": "barcodevisionapi2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623144832478:android:367e18bb13eb86e5c7214f",
+        "android_client_info": {
+          "package_name": "com.example.qrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623144832478-9v7f1r20imqogs6ln2ffna6i6m27h4fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4Vu2UhZ2zxSs1zdN1DBTY23-6cN91WE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623144832478-9v7f1r20imqogs6ln2ffna6i6m27h4fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623144832478:android:c28d410c49082033c7214f",
+        "android_client_info": {
+          "package_name": "com.journaldev.barcodevisionapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623144832478-9v7f1r20imqogs6ln2ffna6i6m27h4fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4Vu2UhZ2zxSs1zdN1DBTY23-6cN91WE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623144832478-9v7f1r20imqogs6ln2ffna6i6m27h4fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
